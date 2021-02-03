@@ -2,13 +2,14 @@ package utilities;
 
 import java.util.List;
 
+
 public class Cruncher {
-	StringBuilder builder = new StringBuilder();
-	char[] specialSigns = { '@', '%', '+', '/', '!', '#', '$', '?', '(', ')' };
-	List<Character> randomChar1 = List.of('q', 'w', 'e', 't', 'y', 'u', 'i', 'a');
-	List<Character> randomChar2 = List.of('s', 'd', 'f', 'g', 'j', 'k', 'l', 'z');
-	List<Character> randomChar3 = List.of('v', 'n', 'm', 'p', 'o', 'x', 'c');
-	List<Character> randomChar4 = List.of('v', 'b', 'n', 'm', 'h', 'r', 'b');
+	private StringBuilder builder = new StringBuilder();
+	private char[] specialSigns = { '@', '%', '+', '/', '!', '#', '$', '?', '(', ')' };
+	private List<Character> randomChar1 = List.of('q', 'w', 'e', 't', 'y', 'u', 'i', 'a');
+	private List<Character> randomChar2 = List.of('s', 'd', 'f', 'g', 'j', 'k', 'l', 'z');
+	private List<Character> randomChar3 = List.of('v', 'n', 'm', 'p', 'o', 'x', 'c');
+	private List<Character> randomChar4 = List.of('v', 'b', 'n', 'm', 'h', 'r', 'b');
 
 	public String crunch(String s) {
 		String output = null;
@@ -22,7 +23,7 @@ public class Cruncher {
 		return output;
 	}
 
-	private String addSpecialSigns(String s) {
+	public String addSpecialSigns(String s) {
 		char[] letters = s.toCharArray();
 		for (int i = 0; i < letters.length; ++i) {
 			if (randomChar1.contains(letters[i])) {
@@ -36,7 +37,7 @@ public class Cruncher {
 		return builder.toString();
 	}
 
-	private String addNumbers(String s) {
+	public String addNumbers(String s) {
 		char[] letters = s.toCharArray();
 
 		for (int i = 0; i < letters.length; ++i) {
