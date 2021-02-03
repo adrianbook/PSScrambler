@@ -1,5 +1,5 @@
 /**
- * Class writen by Björn Munthe
+ * Class writen by Bjorn Munthe
  **/
 
 package utilities;
@@ -17,8 +17,8 @@ public class Cruncher {
 
 	/**
 	 * 
-	 * @param a 10 char string
-	 * @return a string with new characters
+	 * @param String s A 10 char string
+	 * @return String output
 	 */
 	public String crunch(String s) {
 		String output = null;
@@ -34,8 +34,8 @@ public class Cruncher {
 
 	/**
 	 * A method that exchanges letters to special signs
-	 * @param String s
-	 * @return a changed string
+	 * @param String s a 10 char string 
+	 * @return String the edited String
 	 */
 	public String addSpecialSigns(String s) {
 		char[] letters = s.toCharArray();
@@ -54,8 +54,8 @@ public class Cruncher {
 	/**
 	 * a method that exchange letters to numbers
 	 * 
-	 * @param A string containing letters and special characters
-	 * @return A string with numbers
+	 * @param String s A 10 char string
+	 * @return String s A string with numbers
 	 */
 	public String addNumbers(String s) {
 		char[] letters = s.toCharArray();
