@@ -6,12 +6,12 @@ public class Scrambler {
 	
 	static char[] lengthStandardize(char[] in) {
 		char out[] = new char[10];
-		int possition = 0;
+		int position = 0;
 		for (int i = 0; i < 10; i++) {
-			if (possition == in.length) {
-				possition = 0;
+			if (position == in.length) {
+				position = 0;
 			}
-			out[i] = in[possition++];
+			out[i] = in[position++];
 		}
 		return out;
 	}
