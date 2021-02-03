@@ -32,4 +32,16 @@ class ScramblerTest {
 		testArray = Scrambler.arrayScrambler(4, testArray);
 		assertArrayEquals(result, testArray);
 	}
+	@Test
+	public void scrambleTest() {
+		String inputString = "abcd";
+		String result = "accaaadcba";
+		try {
+			String outputString = Scrambler.scramble(inputString);			
+			assertEquals(result, outputString);
+		}
+		catch (IOException exc) {
+			fail();
+		}
+	}
 }
