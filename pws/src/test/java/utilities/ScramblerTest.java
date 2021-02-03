@@ -23,7 +23,13 @@ class ScramblerTest {
 		char[] testArray = {'i','o','p'};
 		char[] testArray2 = Scrambler.lengthStandardize(testArray);
 		char[] result = {'i','o','p','i','o','p','i','o','p','i'};
-		
 		assertArrayEquals(result, testArray2);
+	}
+	@Test
+	public void arrayScramblerTest() {
+		char[] testArray = {'a','b','c','d','e','f','g','h','i','j'};
+		char[] result = {'i','c','g','e','e','e','h','c','j','a'};
+		testArray = Scrambler.arrayScrambler(4, testArray);
+		assertArrayEquals(result, testArray);
 	}
 }
