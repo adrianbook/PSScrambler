@@ -1,9 +1,14 @@
 package ui;
 
 import java.io.IOException;
-
 import utilities.Cruncher;
 import utilities.Scrambler;
+
+/**
+ * 
+ * Contains instructions for user when running in command line client and logic
+ * for when application starts, stops or repeats. Code by Staffan Godman.
+ **/
 
 public class Main {
 	public static void main(String[] args) throws IOException {
@@ -29,23 +34,20 @@ public class Main {
 				System.out.println("Source password must contain 4-10 english letters or digits.");
 			}
 		}
-		/*
-		 * Här skall vi anropa metoderna i instanserna av de två andra klasserna för att
-		 * sedan returnera det färdiga lösenordet
-		 */
-		if (ioControl.inputQuit()!=0){
-		try {
-			String scrambled = Scrambler.scramble(ioControl.getCheckedUserPassword());
-			String crunched = cruncher.crunch(scrambled);
 
-			System.out.println("(Scrambled: " + scrambled + ")");
-			System.out.println("(Crunched: " + crunched + ")");
-			System.out.println(crunched);
-		}
+		if (ioControl.inputQuit() != 0) {
+			try {
+				String scrambled = Scrambler.scramble(ioControl.getCheckedUserPassword());
+				String crunched = cruncher.crunch(scrambled);
 
-		catch (IOException exc) {
+				System.out.println("(Scrambled: " + scrambled + ")");
+				System.out.println("(Crunched: " + crunched + ")");
+				System.out.println(crunched);
+			}
+
+			catch (IOException exc) {
+			}
 		}
-	}
 		System.out.println("quitting...");
 	}
 }
