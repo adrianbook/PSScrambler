@@ -33,7 +33,6 @@ public class IoControl {
 					checkedUserPassword = sb.toString();
 					System.out.println(checkedUserPassword + " is ok!");
 					System.out.println("New password is:");
-					System.out.println("Björns hemliga formel");
 					return (0);
 				}
 			}
