@@ -43,6 +43,9 @@ public class Cruncher {
 			if (randomChar1.contains(letters[i])) {
 				builder.append(specialSigns[i]);
 			} else if (randomChar3.contains(letters[i])) {
+				if (i== 0) {
+				builder.append(specialSigns[specialSigns.length - 2]);
+				}
 				builder.append(specialSigns[specialSigns.length - i]);
 			} else {
 				builder.append(letters[i]);
