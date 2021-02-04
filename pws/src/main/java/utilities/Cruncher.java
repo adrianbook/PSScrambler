@@ -1,7 +1,3 @@
-/**
- * Class writen by Bjorn Munthe
- **/
-
 package utilities;
 
 import java.util.List;
@@ -18,15 +14,10 @@ public class Cruncher {
 	private List<Character> randomChar4 = List.of('b', 'n', 'm', 'h', 'r', 'b',
 												'V', 'N', 'M', 'P', 'O', 'X', 'C');
 
-	/**
-	 * 
-	 * @param String s A 10 char string
-	 * @return String output
-	 */
 	public String crunch(String s) {
 		String output = null;
 		if (s.length() != 10) {
-			throw (new RuntimeException("Något gick fel"));
+			throw (new RuntimeException("Something went wrong"));
 		} else {
 			s = addSpecialSigns(s);
 			output = addNumbers(s);
@@ -35,11 +26,6 @@ public class Cruncher {
 		return output;
 	}
 
-	/**
-	 * A method that exchanges letters to special signs
-	 * @param String s a 10 char string 
-	 * @return String the edited String
-	 */
 	public String addSpecialSigns(String s) {
 		char[] letters = s.toCharArray();
 		for (int i = 0; i < letters.length; ++i) {
@@ -57,13 +43,7 @@ public class Cruncher {
 		}
 		return builder.toString();
 	}
-	
-	/**
-	 * a method that exchange letters to numbers
-	 * 
-	 * @param String s A 10 char string
-	 * @return String s A string with numbers
-	 */
+
 	public String addNumbers(String s) {
 		char[] letters = s.toCharArray();
 
