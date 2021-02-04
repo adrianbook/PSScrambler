@@ -1,0 +1,289 @@
+commit 71da791711acd188cb03bbe0833e8a4413a8d8c4
+Merge: adc8868 49465da
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Thu Feb 4 18:29:48 2021 +0100
+
+    Submitting changes to javadoc
+    Merge branch 'master' into adrian
+
+commit adc8868ec282cc7f62e025b5aec3813538e088c0
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Thu Feb 4 18:17:16 2021 +0100
+
+    javadoc added
+
+commit 49465da21a8c6dce353373b4c93ead60ca6fdc18
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 17:06:27 2021 +0100
+
+    Added readme with instutions on how to build and run application
+
+commit ef8a3f6a74da97312aa8a878ad05a05852e7e4a7
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 17:05:49 2021 +0100
+
+    Made the path to target correct
+
+commit 92c4dd0ef582908b6d8e9500a9b86cc4390ccc5f
+Author: StaffanGodman <73023631+StaffanGodman@users.noreply.github.com>
+Date:   Thu Feb 4 16:06:47 2021 +0100
+
+    Delete pws/target directory
+
+commit b8ae63c3ee3ee91ef36c56c8fc24842386260168
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 14:32:10 2021 +0100
+
+    Added target back to .gitignore
+
+commit e51c3b24acbcf77c7b879d8525a806eef497e084
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 14:09:55 2021 +0100
+
+    Added target folder cointaining javadoc and jar file to repo
+
+commit e347eb4c5da1a02825337eb2143db2d548976c1d
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 14:08:10 2021 +0100
+
+    Removed javadoc and changed exception text to english
+
+commit e6a2f8b1b724a7b3e8b56b9647c0ab27d74de0a5
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 14:05:15 2021 +0100
+
+    Removed secondary .gitignore file
+
+commit ebff88c97152ee04c11bbafef45abe26b33c98e9
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 13:59:19 2021 +0100
+
+    Removed target folder from .gitignore
+
+commit efbca30d7cb6f7196a3e509ddc9b8322d4753b1e
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Thu Feb 4 12:24:00 2021 +0100
+
+    More bugfix
+
+commit 5b70d8423cf7e30c7560f20f4e9a21e7489f8131
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Thu Feb 4 12:14:36 2021 +0100
+
+    Addin capital letters
+
+commit 094b488e51d50fc8e86a6ea8d9880674160c8e67
+Merge: ef13ffc fa288ae
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Thu Feb 4 12:06:58 2021 +0100
+
+    Merge branch 'master' of https://github.com/adrianbook/PSScrambler into master
+
+commit ef13ffc326a57c3cfbf3856a9f63b4550b7b0309
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Thu Feb 4 12:05:45 2021 +0100
+
+    Bux fix
+
+commit fa288ae10569f5e867ab5be9d8fe44e22b0cc691
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Thu Feb 4 11:52:36 2021 +0100
+
+    Cleaned up UI text
+
+commit 2d0c807c906af3937f88b26ba25405904f944c42
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 23:11:05 2021 +0100
+
+    Cleaning up indentations etc
+
+commit 9b52ff362e6132ea3324f2d874b629a1170f90c9
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 23:10:31 2021 +0100
+
+    Added javadoc references
+
+commit 728fe43409a4b27b6426b4f291ab714a5c37b2bd
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 23:09:53 2021 +0100
+
+    Added javadoc references
+
+commit 8c39028cf34f4ef33950f87d34434e5a8dd4a8de
+Merge: 20bbd69 a27d999
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 22:33:34 2021 +0100
+
+    Merge branch 'master' of https://github.com/adrianbook/PSScrambler into master
+
+commit a27d9994e7dd53bf8d6ee380fef3532f06470f5d
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 22:31:02 2021 +0100
+
+    Changed javadoc plugin to version 3.2.0 in pom.xml
+
+commit 20bbd6969a9e46a75bee624097fdde2a09eb734b
+Merge: c0cad7a 139ba0a
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 22:29:46 2021 +0100
+
+    Merge branch 'master' of https://github.com/adrianbook/PSScrambler into master
+
+commit c0cad7a9804d86b8bd227f301ab7db59714e2f4b
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 22:29:34 2021 +0100
+
+    uppdating javadoc
+
+commit 139ba0a56c99b312d6ec31fabfead0fae1d5237f
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 22:05:59 2021 +0100
+
+    Added UTF-8 encoding to properties in pom.xml
+
+commit f55b5aee9abf78545a595925abb55591d08e367e
+Merge: 3404166 b2ae579
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 21:26:36 2021 +0100
+
+    Merge branch 'master' of https://github.com/adrianbook/PSScrambler into master
+    adding javadoc
+
+commit 34041663fd9e1b7b62ea40d9b0264ab448a3b4d3
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 21:21:29 2021 +0100
+
+    adding javadoc
+
+commit b2ae5797747094a5919475c9e508566bed5ea035
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 21:10:04 2021 +0100
+
+    Added javadoc plugin to pom.xml
+
+commit 2028b5ce81b4f32781aea3adee8ce622f833c408
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 20:25:59 2021 +0100
+
+    Added condition for running Scrambler and Cruncher classes in Main script, now they dont run if user quits app.
+
+commit 9d30b5cf18ca306ffc422c6776ea1fd369120205
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 20:21:47 2021 +0100
+
+    Cleaned up and/or removed code used for intitial troubleshooting
+
+commit 653022a728068cd558c29319d518a1c5f9a7a013
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 20:18:44 2021 +0100
+
+    Removed class files that were not used
+
+commit 493f9cc61ad8bd68edb73e3f76a44f862d45f910
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 20:16:57 2021 +0100
+
+    Fixed typo in variable name
+
+commit e7fc6e6b4a1ffd5c7482b454eb20620c0b153b28
+Merge: d7b1121 8c8bb82
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 19:03:44 2021 +0100
+
+    Merge of 'master' of https://github.com/adrianbook/PSScrambler into master
+
+commit d7b112119365482e675296bec48f392bcde5ec6d
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 19:02:47 2021 +0100
+
+    Tests for Cruncher plus update to Cruncher"
+    
+    git push
+    
+    cd
+
+commit 8c8bb82ab58b91422c87e77941806203fcd2ec51
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 18:26:11 2021 +0100
+
+    Added JUint tests for IoControl methods
+
+commit ed9214a97498c97d2d962801d75425756aac159a
+Merge: 6292a86 0e894b4
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 18:16:32 2021 +0100
+
+    Getting branch
+
+commit 0e894b4694c0145764b5bcfb2ef5a078ebc599df
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Wed Feb 3 18:07:31 2021 +0100
+
+    scrambler.java and scramblertest.java completed
+
+commit 6292a867e1c9775dcb2d88bc72d0282c8dceaceb
+Merge: daa19c1 b0c801f
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 18:07:13 2021 +0100
+
+    Merging branches
+
+commit daa19c1b4fc33308205012e8e6732ae632157ed8
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 18:05:22 2021 +0100
+
+    Updated cruncher
+
+commit b0c801f28cc6becf505af3b90ec5b219e11fc881
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Wed Feb 3 18:00:12 2021 +0100
+
+    added functionality to scrambler and tests to scramblertest
+
+commit 6c50d87efa6358f53691ad77cd1ab6b1a1599d6d
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 16:54:50 2021 +0100
+
+    Replaced temporary Main with real one (which has the user input) and added class IoControl containing input controls.
+
+commit 396b77195d1d5e9a8afe71838d9e7a92719d2f59
+Author: Staffan <staffan.godman@gmail.com>
+Date:   Wed Feb 3 16:16:45 2021 +0100
+
+    Added metadata folder to gitignore
+
+commit 988a32b0f495c61f09e642f352e46fd624e3a9f9
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Wed Feb 3 16:09:06 2021 +0100
+
+    update .gitignore
+
+commit 1f6a60c16db684c5a8aed4eefd3589fc386f3ff6
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 16:03:25 2021 +0100
+
+    Update Cruncher
+
+commit a42dc6b8cf78c72bcee90722e1d89172d39c567c
+Author: björn munthe <bjomun1011@skola.goteborg.se>
+Date:   Wed Feb 3 15:53:30 2021 +0100
+
+    Update Cruncher
+
+commit 62c1f209763b2a8f7f1f9d1c5c5d89a79e16bcf3
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Wed Feb 3 12:13:03 2021 +0100
+
+    added functionality to Scrambler and ScramblerTest
+
+commit 27bc16fcafb216b6c9b45f5d369c5af8f93adcf0
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Tue Feb 2 18:32:15 2021 +0100
+
+    added IOHandler and IOHandlerTest classes
+
+commit 1019e26906c9ab9e16a318225afdb9ec22c86e41
+Author: Adrian Book <adrboo2001@skola.goteborg.se>
+Date:   Tue Feb 2 17:27:18 2021 +0100
+
+    initial commit
