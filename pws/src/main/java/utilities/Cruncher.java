@@ -11,9 +11,12 @@ public class Cruncher {
 	private StringBuilder builder = new StringBuilder();
 	private char[] specialSigns = { '@', '%', '+', '/', '!', '#', '$', '?', '(', ')' };
 	private List<Character> randomChar1 = List.of('q', 'w', 'e', 't', 'y', 'u', 'i', 'a');
-	private List<Character> randomChar2 = List.of('s', 'd', 'f', 'g', 'j', 'k', 'l', 'z');
-	private List<Character> randomChar3 = List.of('v', 'n', 'm', 'p', 'o', 'x', 'c');
-	private List<Character> randomChar4 = List.of('v', 'b', 'n', 'm', 'h', 'r', 'b');
+	private List<Character> randomChar2 = List.of('s', 'd', 'f', 'g', 'j', 'k', 'l', 'z',
+												'Q', 'W', 'E', 'T', 'Y', 'U', 'I', 'A');
+	private List<Character> randomChar3 = List.of('v', 'n', 'm', 'p', 'o', 'x', 'c',
+											'S', 'D', 'F', 'G', 'J', 'K', 'L', 'Z');
+	private List<Character> randomChar4 = List.of('b', 'n', 'm', 'h', 'r', 'b',
+												'V', 'N', 'M', 'P', 'O', 'X', 'C');
 
 	/**
 	 * 
