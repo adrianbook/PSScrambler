@@ -16,8 +16,8 @@ public class Main {
 		IoControl ioControl = new IoControl();
 		Cruncher cruncher = new Cruncher();
 
-		System.out.println(
-				"Welcome. This application converts a password containing only letters to a more secure password containing 10 letters, digits and special characters");
+		System.out.println("Welcome");
+		System.out.println("This application converts a simple password to a more secure password containing 10 letters, digits and special characters.");
 		System.out.println("Enter q to quit at any time.");
 		System.out.println("Please enter source password.");
 
@@ -32,6 +32,7 @@ public class Main {
 			}
 			if (i < 0) {
 				System.out.println("Source password must contain 4-10 english letters or digits.");
+				System.out.println("Please enter source password.");
 			}
 		}
 
@@ -48,6 +49,6 @@ public class Main {
 			catch (IOException exc) {
 			}
 		}
-		System.out.println("quitting...");
+		System.out.println("Quitting...");
 	}
 }
