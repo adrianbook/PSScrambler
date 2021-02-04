@@ -1,6 +1,11 @@
 package utilities;
 
 import java.util.List;
+/**
+ * 
+ * @author Bjorn Munthe
+ *A class containing functions for changing chars
+ */
 
 
 public class Cruncher {
@@ -13,7 +18,13 @@ public class Cruncher {
 											'S', 'D', 'F', 'G', 'J', 'K', 'L', 'Z');
 	private List<Character> randomChar4 = List.of('b', 'n', 'm', 'h', 'r', 'b',
 												'V', 'N', 'M', 'P', 'O', 'X', 'C');
-
+/**
+ * A method that first checks if sting is correct length and then
+ * invokes two methods
+ * 
+ * @param s A 10 char string
+ * @return output A string containing numbers and special signs
+ */
 	public String crunch(String s) {
 		String output = null;
 		if (s.length() != 10) {
@@ -25,7 +36,11 @@ public class Cruncher {
 
 		return output;
 	}
-
+/**
+ * A method that puts special signs in a String
+ * @param s A 10 char string
+ * @return output A string containing special signs
+ */
 	public String addSpecialSigns(String s) {
 		char[] letters = s.toCharArray();
 		for (int i = 0; i < letters.length; ++i) {
@@ -43,6 +58,11 @@ public class Cruncher {
 		}
 		return builder.toString();
 	}
+	/**
+	 * A method adding numericals to a string
+	 * @param s A 10 char string
+	 * @return output A string with some numerical chars
+	 */
 
 	public String addNumbers(String s) {
 		char[] letters = s.toCharArray();
