@@ -1,12 +1,12 @@
+ package utilities;
+
+import java.io.IOException;
+
 /**
  * Class for scrambling Strings 
  * written by Adrian Book adrianbook@gmail.com
  * for Utvecklingsverktyg2
  **/ 
- package utilities;
-
-import java.io.IOException;
-
 public class Scrambler {
 	/**
 	 * Static method for making a char[] of length 10 by repeating the characters of the input char[]
